@@ -1,14 +1,15 @@
 const fs = require("fs");
 let N = Number(fs.readFileSync(0).toString().trim());
 
-if(N===12){
+if (n >= 12 || n <= 2) {
     console.log("Winter");
-}else if(N>8 && N<12){
-    console.log("Fall");
-}else if(N>5){
+}
+else if (n <= 5) {
+    console.log("Spring")
+}
+else if (n <= 8) {
     console.log("Summer");
-}else if(N>2){
-    console.log("Spring");
-}else{
-    console.log("Winter");
+}
+else {
+    console.log("Fall");
 }
