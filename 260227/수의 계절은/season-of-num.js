@@ -1,5 +1,5 @@
 const fs = require("fs");
-let N = Number(fs.readFileSync(0).toString().trim());
+let n = Number(fs.readFileSync(0).toString().trim());
 
 if (n >= 12 || n <= 2) {
     console.log("Winter");
