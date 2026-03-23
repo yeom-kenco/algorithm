@@ -4,7 +4,7 @@ let a = n;
 let cnt = 0;
 
 for(let i=1;i<=a;i++){
-    if(n<=1){
+    if(n<1){
         console.log(cnt);
         break;
     }
